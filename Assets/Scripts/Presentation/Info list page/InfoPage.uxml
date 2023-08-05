@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Presentation/Info%20list%20page/Style/InfoPage.uss?fileID=7433441132597879392&amp;guid=c2443f500c754d445aacd4a07cee6829&amp;type=3#InfoPage" />
+    <ui:IMGUIContainer name="background" style="background-image: url(&apos;project://database/Assets/Sprites/background_raw.png?fileID=2800000&amp;guid=8e4775db5e0500f4691996517136a2cf&amp;type=3#background_raw&apos;); background-color: rgb(255, 255, 255); width: 100%; height: 100%; -unity-background-image-tint-color: rgb(127, 127, 127); opacity: 1; display: flex; visibility: visible; overflow: visible; -unity-background-scale-mode: stretch-to-fill;" />
+    <ui:GroupBox name="content" style="position: absolute; width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:GroupBox name="padding" style="height: 100%; width: 900px; justify-content: center; align-items: center;">
+            <ui:ListView focusable="true" name="info_list" style="height: 1200px; position: relative; width: 100%; justify-content: flex-start; left: auto; align-items: center;" />
+            <ui:VisualElement name="loading_circle" style="position: absolute; background-image: url(&apos;project://database/Assets/Sprites/loading.png?fileID=2800000&amp;guid=4dd13eb4b95728e4fb079f89e1cf6c7e&amp;type=3#loading&apos;); width: 100px; height: 100px;" />
+            <ui:GroupBox name="buttons_container" style="height: 80px; width: 100%; flex-direction: row; justify-content: space-between;">
+                <ui:Button text="Previous" display-tooltip-when-elided="true" name="previous_button" class="switch-button" />
+                <ui:Button text="Next" display-tooltip-when-elided="true" name="next_button" class="switch-button" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

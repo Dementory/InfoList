@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:GroupBox name="content" style="width: 100%; height: 100%; align-items: center; justify-content: center; margin-bottom: 20px; margin-top: 0; margin-right: 0; margin-left: 0;">
+        <ui:VisualElement name="highlight" style="width: 970px; height: 270px; background-image: url(&apos;project://database/Assets/Sprites/item_glow.png?fileID=2800000&amp;guid=87205c49f5b419e48b0767a50221c9df&amp;type=3#item_glow&apos;); -unity-background-image-tint-color: rgb(255, 247, 189); -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 76; -unity-slice-top: 76; -unity-slice-right: 76; -unity-slice-bottom: 76; position: absolute;" />
+        <ui:VisualElement name="background" style="width: 900px; height: 200px; background-color: rgb(54, 47, 101); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 30px; border-bottom-right-radius: 30px; flex-direction: row; align-items: center;">
+            <ui:VisualElement name="badge" style="width: 58px; height: 200px; background-image: url(&apos;project://database/Assets/Sprites/Badges/item_badge_blue.png?fileID=2800000&amp;guid=eec45a1020a34a9478c163bcf3c54df9&amp;type=3#item_badge_blue&apos;);" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="id_text" style="margin-left: 36px; font-size: 110px; color: rgb(255, 255, 255);" />
+            <ui:Label text="content" display-tooltip-when-elided="true" name="content_text" style="margin-left: 50px; font-size: 45px; color: rgb(255, 255, 255); -unity-text-align: middle-left; width: 641px; white-space: normal; height: 150px;" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

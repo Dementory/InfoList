@@ -1,0 +1,16 @@
+.switch-button {
+    background-image: url('project://database/Assets/Sprites/Buttons/btn_normal.png?fileID=2800000&guid=d42a50b834247904a99f3a6dcc5b7fb3&type=3#btn_normal');
+    background-color: rgb(255, 255, 255);
+    width: 425px;
+    height: 80px;
+    font-size: 39px;
+    color: rgb(255, 255, 255);
+}
+
+.switch-button:active {
+    background-image: url('project://database/Assets/Sprites/Buttons/btn_pressed.png?fileID=2800000&guid=570337bffedbd8e49bb12e8c2eb5a6b3&type=3#btn_pressed');
+    background-color: rgb(255, 255, 255);
+    width: 425px;
+    height: 80px;
+    font-size: 39px;
+}
